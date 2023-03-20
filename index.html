@@ -13,13 +13,16 @@
   <body>
 
     <div class="container mt-5">
-        <h1>Contact Me!</h1>
+		<img class="mr-3 rounded-circle" src="http://kystpark.no/images/logo_liten.png" alt="Generic placeholder image">
+        <h1>Kontakt oss!</h1>
         <form class="row g-3" action="https://formsubmit.co/18ca0fce8e7dadf35dbbfd5fe4deca3c" method="POST">
 			<!--honeypot--> 
 			<input type="text" name="_honey" style="display: none;">
 			
 			<!--disable captcha-->
 			<input type="hidden" name="_captcha" value="false">
+			
+			<input type="hidden" name="_next" value="https://github.com/wencheis/formsubmitkyst/success.html">
 			
           <div class="col-md-6">
             <label for="firstName" class="form-label">Fornavn</label>
